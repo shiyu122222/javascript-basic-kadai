@@ -1,6 +1,6 @@
 const num = (i) => {
-  i = i * i;
-  console.log(i);
+  return i = i * i;
+
 }
 
-num(5);
+console.log(num(5));
